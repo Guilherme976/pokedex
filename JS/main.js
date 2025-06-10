@@ -1,6 +1,6 @@
 console.log("Funcionou")
 
-const url = "https://pokeapi.co/api/v2/pokemon?limit=150&offset=0"
+const url = "https://pokeapi.co/api/v2/pokemon?limit=200&offset=0"
 const pokemonList = document.getElementById("lista-pokemon")
 
 function convertPokemonToLi(pokemon) {
